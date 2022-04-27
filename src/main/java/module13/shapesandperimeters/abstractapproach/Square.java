@@ -18,11 +18,11 @@ public class Square extends Shape{
 
     @Override
     public int area() {
-        return 0;
+        return side * side;
     }
 
     @Override
     public int perimeter() {
-        return 0;
+        return 4 * side;
     }
 }
