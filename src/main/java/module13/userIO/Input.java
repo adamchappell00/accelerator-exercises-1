@@ -7,7 +7,12 @@ import java.util.Scanner;
 
 public class Input implements UserIO {
 
-    Scanner scan = new Scanner(System.in);
+    Scanner scan;
+
+    public Input(){
+         scan = new Scanner(System.in);
+    }
+
 
     @Override
     public int readInt(String prompt) {
